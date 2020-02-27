@@ -1,0 +1,99 @@
+.over_div{
+	width: 80px;
+	left: 6%;
+}
+.over_div1{
+	width: 115px;
+	left: 16%;
+}
+.over_div, .over_div1, .over_div2{
+	position: absolute;
+    top: 52%;
+    height: 20px;
+}
+.over_div, .over_div1{
+    background-color: rgb(3, 179, 0);
+    border: 1px solid rgb(5, 86, 4);
+}
+.over_div_p, .over_div_ins_p{
+	color: white;
+	position: absolute;
+	margin: 2px;
+}
+.over_div_ins_p{
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+#i1, #i0{
+	cursor: pointer;
+}
+
+input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: rgb(98, 157, 187);
+    color: white;
+    border: 1px solid rgb(44, 79, 97);
+    border-radius: 8px;
+    width: 250%;
+}
+
+.img1{background-image:url(../images/1.png);}
+.img2{background-image:url(../images/2.png);}
+
+.imgL{background-image:url(../images/Left.png);}
+.imgR{background-image:url(../images/Right.png);}
+
+.drinkcard-cc{
+    width: 135px;
+    height: 222px;
+}
+.drinkcard-cc1{
+    width: 200px;
+    height: 150px;/*margin*/
+}
+.drinkcard{
+    cursor:pointer;
+    background-repeat:no-repeat;
+    display:inline-block;
+    margin-left: 20px;
+    -webkit-transition: all 100ms ease-in;
+       -moz-transition: all 100ms ease-in;
+            transition: all 100ms ease-in;
+    -webkit-filter: brightness(1.8) grayscale(1) opacity(.7);
+       -moz-filter: brightness(1.8) grayscale(1) opacity(.7);
+            filter: brightness(1.8) grayscale(1) opacity(.7);
+}
+.drinkcard-cc:hover, .drinkcard-cc1:hover{
+    -webkit-filter: brightness(1.2) grayscale(.5) opacity(.9);
+       -moz-filter: brightness(1.2) grayscale(.5) opacity(.9);
+            filter: brightness(1.2) grayscale(.5) opacity(.9);
+}
+
+.radio_value{
+	transform: scale(2.3);
+    margin-left: 32px;
+}
+
+img{
+    position: absolute;
+}
+
+.wall_ver9{
+    height: 100px !important;
+}
+
+.coin{
+    position: absolute;
+    width: 55px; 
+    height: 55px; 
+}
+.enemy{
+     width: 50px; 
+     height: 120px; 
+     position: absolute; 
+}
